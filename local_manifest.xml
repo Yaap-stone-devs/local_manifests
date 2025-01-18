@@ -22,7 +22,7 @@
         path="device/xiaomi/stone"
         name="device_xiaomi_stone"
         remote="Yaap-stone-devs"
-        revision="fifteen"
+        revision="fifteen-wip"
     />
 
  <!-- Kernel -->
