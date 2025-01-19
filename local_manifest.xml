@@ -31,7 +31,7 @@
  <project
         path="device/xiaomi/stone-kernel"
         name="device_xiaomi_stone-kernel"
-        remote="Yaap-stone-devs"
+        remote="kami"
         revision="custom"
     />
 
