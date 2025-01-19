@@ -13,6 +13,7 @@
         fetch="https://github.com/crdroidandroid"
         clone-depth="1"
     />
+    <remote name="yaap" fetch="https://github.com/yaap/" clone-depth="1" />
    <remote name="linag" fetch="https://github.com/LineageOS" />
    <remote name="cumos" fetch="https://github.com/cumOS" />
 
@@ -44,9 +45,9 @@
  <!-- Common Xiaomi Hardware Tree -->
  <project
         path="hardware/xiaomi"
-        name="android_hardware_xiaomi"
-        remote="cr"
-        revision="15.0"
+        name="hardware_xiaomi"
+        remote="yaap"
+        revision="fifteen"
     />
 
  <!-- Dolby -->
