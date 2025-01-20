@@ -16,7 +16,6 @@
     <remote name="yaap" fetch="https://github.com/yaap/" clone-depth="1" />
    <remote name="linag" fetch="https://github.com/LineageOS" />
    <remote name="cumos" fetch="https://github.com/cumOS" />
-   <remote name="yaap_linag" fetch="https://github.com/yaap/" clone-depth="1"/>
 
 
  <!-- Tree -->
@@ -48,12 +47,6 @@
         path="hardware/xiaomi"
         name="hardware_xiaomi"
         remote="yaap"
-        revision="fifteen"
-    />
- <project 
-        path="hardware/lineage"
-        name="hardware_lineage_interfaces"
-        remote="yaap_linag"
         revision="fifteen"
     />
 
