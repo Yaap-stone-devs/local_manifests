@@ -13,7 +13,7 @@
         fetch="https://github.com/crdroidandroid"
         clone-depth="1"
     />
-    <remote name="yaap" fetch="https://github.com/yaap/" clone-depth="1" />
+    <remote name="yaap" fetch="https://github.com/yaap/"/>
    <remote name="linag" fetch="https://github.com/LineageOS" />
    <remote name="cumos" fetch="https://github.com/cumOS" />
 
@@ -39,7 +39,7 @@
         path="vendor/xiaomi/stone"
         name="vendor_xiaomi_stone"
         remote="kami"
-        revision="15-perf"
+        revision="15-libperf"
     />
 
  <!-- Common Xiaomi Hardware Tree -->
