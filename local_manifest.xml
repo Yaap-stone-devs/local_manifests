@@ -21,7 +21,7 @@
  <!-- Tree -->
  <project
         path="device/xiaomi/stone"
-        name="device_xiaomi_stone"
+        name="device_xiaomi_stone_libperf"
         remote="Yaap-stone-devs"
         revision="fifteen-wip"
     />
