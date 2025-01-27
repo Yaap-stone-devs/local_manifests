@@ -1,62 +1,39 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
  <!-- Remotes -->
-   <remote name="Yaap-stone-devs" fetch="https://github.com/Yaap-stone-devs" />
-   <remote
-        name="kami"
-        fetch="https://github.com/kamikaonashi"
-        clone-depth="1"
-    />
-   <remote
-        name="cr"
-        fetch="https://github.com/crdroidandroid"
-        clone-depth="1"
-    />
-    <remote name="yaap" fetch="https://github.com/yaap/"/>
-   <remote name="linag" fetch="https://github.com/LineageOS" />
-   <remote name="cumos" fetch="https://github.com/cumOS" />
+   <remote name="Yaap-stone-devs" 
+           fetch="https://github.com/Yaap-stone-devs"
+           clone-depth="1" />
+   <remote name="kami"
+           fetch="https://github.com/kamikaonashi"
+           clone-depth="1" />
+   <remote name="cr"
+           fetch="https://github.com/crdroidandroid"
+           clone-depth="1" />
+   <remote name="linag"
+           fetch="https://github.com/LineageOS"
+           clone-depth="1" />
+   <remote name="cumos"
+           fetch="https://github.com/cumOS"
+	          clone-depth="1" />
 
-
+ 
  <!-- Tree -->
- <project
-        path="device/xiaomi/stone"
-        name="device_xiaomi_stone_libperf"
-        remote="Yaap-stone-devs"
-        revision="15-libperf"
-    />
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone_libperf" remote="Yaap-stone-devs" revision="15-libperf" />
 
  <!-- Kernel -->
- <project
-        path="device/xiaomi/stone-kernel"
-        name="device_xiaomi_stone-kernel"
-        remote="kami"
-        revision="custom"
-    />
+ <project path="device/xiaomi/stone-kernel" name="device_xiaomi_stone-kernel" remote="kami" revision="custom" />
 
  <!-- Vendor -->
- <project
-        path="vendor/xiaomi/stone"
-        name="vendor_xiaomi_stone"
-        remote="kami"
-        revision="15-libperf"
-    />
-
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="kami" revision="15-libperf" />
+ 
  <!-- Common Xiaomi Hardware Tree -->
- <project
-        path="hardware/xiaomi"
-        name="hardware_xiaomi"
-        remote="yaap"
-        revision="fifteen"
-    />
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="cr" revision="15.0" />
 
  <!-- Dolby -->
- <project
-        path="vendor/dolby"
-        name="vendor_dolby_oplus"
-        remote="cumos"
-        revision="14"
-    />
+ <project path="vendor/dolby" name="vendor_dolby_oplus" remote="cumos" revision="14" />
 
-
+ <!-- Kanged from Vedraj🫠 -->
+	
 </manifest>
