@@ -17,7 +17,7 @@
    <remote name="cumos"
            fetch="https://github.com/cumOS"
 	   clone-depth="1" />
-   <remote name="yaap"
+   <remote name="yaap_g"
            fetch="https://github.com/yaap"
 	   clone-depth="1" />
 
@@ -33,7 +33,7 @@
  <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone" remote="Yaap-stone-devs" revision="15-libperf" />
  
  <!-- Common Xiaomi Hardware Tree -->
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="yaap" revision="fifteen" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="yaap_g" revision="fifteen" />
 
  <!-- Dolby -->
  <project path="vendor/dolby" name="vendor_dolby_oplus" remote="cumos" revision="14" />
