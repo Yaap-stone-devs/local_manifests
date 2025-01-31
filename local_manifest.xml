@@ -18,7 +18,7 @@
            fetch="https://github.com/cumOS"
 	   clone-depth="1" />
    <remote name="yaap_g"
-           fetch="https://github.com/yaap"
+           fetch="https://github.com/Yaap"
 	   clone-depth="1" />
 
 
