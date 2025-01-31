@@ -16,7 +16,7 @@
            clone-depth="1" />
    <remote name="cumos"
            fetch="https://github.com/cumOS"
-	          clone-depth="1" />
+	   clone-depth="1" />
 
  
  <!-- Tree -->
