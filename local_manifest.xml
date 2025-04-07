@@ -23,6 +23,9 @@
    <remote name="mayuresh"
            fetch="https://github.com/Mayuresh2543"
 	   clone-depth="1" />
+   <remote name="chk-bcr"
+           fetch="https://github.com/Chaitanyakm"
+	   clone-depth="1" />
 
 
  
@@ -38,6 +41,9 @@
  <!-- Common Xiaomi Hardware Tree -->
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="yaap_g" revision="fifteen" />
 
-  <!-- Kanged from Vedraj🫠 -->
+ <!-- BCR -->
+ <project path="vendor/bcr" name="vendor_bcr" remote="chk-bcr" revision="main" />
+	
+ <!-- Kanged from Vedraj🫠 -->
 	
 </manifest>
