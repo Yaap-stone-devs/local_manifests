@@ -30,13 +30,13 @@
 
  
  <!-- Tree -->
- <project path="device/xiaomi/stone" name="device_xiaomi_stone_new" remote="mayuresh" revision="15-yaap" />
+ <project path="device/xiaomi/stone" name="device_xiaomi_stone_yaap" remote="mayuresh" revision="15-yaap" />
 
  <!-- Kernel -->
- <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone_new" remote="kami" revision="15" />
+ <project path="kernel/xiaomi/stone" name="kernel_xiaomi_stone_new" remote="kami" revision="test" />
 
  <!-- Vendor -->
- <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone_yaap" remote="Yaap-stone-devs" revision="15" />
+ <project path="vendor/xiaomi/stone" name="vendor_xiaomi_stone_yaap_new" remote="Yaap-stone-devs" revision="15-yaap" />
  
  <!-- Common Xiaomi Hardware Tree -->
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="yaap_g" revision="fifteen" />
