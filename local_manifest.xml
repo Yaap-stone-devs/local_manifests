@@ -3,7 +3,7 @@
 
  <!-- Remotes -->
    <remote name="Yaap-stone-devs" 
-           fetch="https://github.com/Yaap-stone-devs"
+           fetch="https://github.com/buildbot-stone-devs"
            clone-depth="1" />
    <remote name="kami"
            fetch="https://github.com/kamikaonashi"
